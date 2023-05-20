@@ -17,10 +17,13 @@ while True:
     resp = input("Deseja continuar [S/N]? ")
     if resp == "N" or resp == "n":
         break
-print("Código:", cod)
-print("Nome do produto:", nome)
-print("Preço: R$", preco)
-print("Qtde:", qtde)
 
+total = 0
 
+for cod, prdo in produtos.items():
+    subtotal = produtos[cod][1] * produtos[cod][2]
+    print(F"{prod[0]}: R$ {subtotal:.2f}")
+    total += subtotal
+print(20 * "_")
+print(F"total: R$ {total:.2f}")
 
