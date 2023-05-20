@@ -23,3 +23,4 @@ print("Preço: R$", preco)
 print("Qtde:", qtde)
 
 
+
