@@ -1,3 +1,4 @@
+#facul
 while (opcao != 5):
     print("***********")
     print("Qual grandeza deseja calcular?")

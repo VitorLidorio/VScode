@@ -1,3 +1,4 @@
+#facul
 valor = int(input("Entre com 0 valor desejado do saque: "))
 
 notas = (100, 50, 20, 10, 5)

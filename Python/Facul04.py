@@ -1,3 +1,4 @@
+#facul
 i = 0
 soma = 0 
 contagem = 0 
