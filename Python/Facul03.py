@@ -1,7 +1,7 @@
 #facul
 opcao = 0
 while (opcao != 5):
-    print("***********")
+    print("***********") 
     print("Qual grandeza deseja calcular?")
     print("1 - Tensão em Volts")
     print("2 - Resistencia em Ohms")
